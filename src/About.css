@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Permanent+Marker&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.para-about{
+    color: white;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 38px;
+}
+
+.body{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+span{
+    color: saddlebrown;
+}
+
+.cartoon-img{
+    margin-right: 90px;
+    margin-top: 50px;
+    height: 350px;
+}
+
+.skills{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+h2{
+    color: #fff;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+.btn-about {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    background-color: darkgrey;
+}
+
+.btn-about-container{
+    display: flex;
+    gap: 20px;
+}
+.empty-space{
+    height: 200px;
+}
