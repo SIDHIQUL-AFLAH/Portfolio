@@ -6,7 +6,6 @@ import cartoon from './assets/about-cartoon.png'
 function About() {
   return (
     <div className="about-page">
-        <Navbar/>
         <div className="about-body">
             <div className="text-content">
                 <h1>Professional Profile</h1>

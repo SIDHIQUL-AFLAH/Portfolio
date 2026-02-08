@@ -6,7 +6,6 @@ import Navbar from './Navbar'
 function Body() {
   return (
     <div>
-      <Navbar/>
    
         <div className="first-container">
             
