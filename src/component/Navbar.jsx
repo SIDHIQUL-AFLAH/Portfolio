@@ -16,7 +16,7 @@ function Navbar() {
                     <a href="/About" className="link">About</a>
                 </li>
                 <li className="menu-item">
-                    <a href="/project " className="link">Project</a>
+                    <a href="/project" className="link">Project</a>
                 </li>
                 <li className="menu-item">
                     <a href="#" className="link">Resume</a>
