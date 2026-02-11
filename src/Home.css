@@ -1,8 +1,72 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a; /* Matching the About page theme */
+  padding: 0 10%;
+  overflow: hidden;
+  position: relative;
+}
 
-div{
-    /* height: 100vh; */
-    /* background-image: url(./assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #2f3542;
+.hero-section {
+  z-index: 2;
+  text-align: center;
+  animation: fadeIn 1s ease-out;
+}
+
+/* Call to Action Buttons */
+.cta-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+.btn-primary:hover {
+  background-color: #7dd3fc;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.3);
+}
+
+.btn-secondary {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(56, 189, 248, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Background Blur Effect */
+.background-blur {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, transparent 70%);
+  filter: blur(50px);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
