@@ -5,6 +5,13 @@ function Home() {
     <div className='home-main-container'>
         <div className="home-first-container"></div>
         <div className="home-second-container"></div>
+        <div className="home-third-container"></div>
+        <div className="home-third-container"></div>
+        <div className="home-third-container"></div>
+        <div className="home-third-container"></div>
+        <div className="home-third-container"></div>
+        <div className="home-third-container"></div>
+
     </div>
   )
 }
