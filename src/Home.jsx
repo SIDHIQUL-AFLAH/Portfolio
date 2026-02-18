@@ -6,13 +6,7 @@ function Home() {
         <div className="home-first-container"></div>
         <div className="home-second-container"></div>
         <div className="home-third-container"></div>
-        <div className="home-third-container"></div>
-        <div className="home-third-container"></div>
-
-        <div className="home-fourth"></div>
-        <div className="home-fourth"></div>
-        <div className="home-fourth"></div>
-        <div className="home-fourth"></div>
+        
 
     </div>
   )
