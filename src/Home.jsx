@@ -9,6 +9,10 @@ function Home() {
         <div className="home-third-container"></div>
         <div className="home-third-container"></div>
 
+        <div className="home-fourth"></div>
+        <div className="home-fourth"></div>
+        <div className="home-fourth"></div>
+        <div className="home-fourth"></div>
 
     </div>
   )
