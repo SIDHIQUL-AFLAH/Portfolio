@@ -8,13 +8,6 @@ function Home() {
         <div className="home-third-container"></div>
 
 
-        <div className="fifth-container"></div>
-        <div className="fifth-container"></div>
-        <div className="fifth-container"></div>
-        <div className="fifth-container"></div>
-        <div className="fifth-container"></div>
-        
-
     </div>
   )
 }
