@@ -9,15 +9,6 @@ function Navbar() {
         <a href="" className="navbar-contact"></a>
 
 
-        <div className="nav-container"></div>
-        <div className="nav-container"></div>
-        <div className="nav-container"></div>
-        <div className="nav-container"></div>
-        <div className="nav-container"></div>
-        <div className="nav-container"></div>
-        <div className="nav-container"></div>
-
-
     </div>
   )
 }
