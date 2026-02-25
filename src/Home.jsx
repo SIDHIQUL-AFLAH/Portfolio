@@ -8,6 +8,14 @@ function Home() {
         <div className="home-third-container"></div>
 
 
+        <div className="class"></div>
+        <div className="class"></div>
+        <div className="class"></div>
+        <div className="class"></div>
+        <div className="class"></div>
+        <div className="class"></div>
+        <div className="class"></div>
+
     </div>
   )
 }
