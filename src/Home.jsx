@@ -4,7 +4,7 @@ import Navbar from './component/Navbar'
 function Home() {
   return (
     <div className='home-main-container'>
-      <Navbar/>
+      {/* <Navbar/> */}
         <div className="home-first-container">
           <div className="home-first-container-img">
             {/* image in round shape */}

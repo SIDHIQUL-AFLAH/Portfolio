@@ -1,18 +1,21 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
     
+
     <div className='navbar-main-container'>
       <div className="navbar-first-container">
-        <h2>Sidhiqul Aflah</h2><h3> / Web Developer</h3>
+        <h2>Sidhiqul Aflah <span> / Web Developer</span></h2>
       </div>
       <div className='navbar-second-container'>
-        <a href="" className="navbar-about">About Me</a>
-        <a href="" className="navbar-resume">Resume</a>
-        <a href="" className="navbar-projects">Project</a>
-        <a href="" className="navbar-contact">Contact</a>
-    </div>
+        <NavLink to='/' end className={({isActive})=>isActive? "nav-link-active":"nav-link"}>About Me</NavLink>
+        <NavLink to='/resume' className={({isActive})=>isActive? "nav-link-active":"nav-link"}>Resume</NavLink>
+        <NavLink to='/project' className={({isActive})=>isActive? "nav-link-active":"nav-link"}>Project</NavLink>
+        <NavLink to='/contact' className={({isActive})=>isActive? "nav-link-active":"nav-link"}>Contact</NavLink>
+       
+       </div>
     </div>
     
     
