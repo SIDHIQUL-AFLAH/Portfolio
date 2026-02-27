@@ -12,7 +12,25 @@ function Home() {
             <h3>Web Developer</h3>
           </div>
         </div>
-        <div className="home-second-container"></div>
+
+
+        <div className="home-second-container">
+          <div className="home-second-container-about">
+            <div className="home-second-container-about-heading">
+              <h1>Heyy!</h1>
+              <h3>I'm a MERN Developer</h3>
+            </div>
+            <div className="home-second-container-about-btn">
+              <button>Resume</button>
+              <button>Projects</button>
+            </div>
+            <div className="home-second-container-about-para">
+              <h4>Hi i'm a full stack mern developer.currently studying at zoople technologies</h4>
+            </div>
+          </div>
+        </div>
+
+
         <div className="home-third-container"></div>
 
 
