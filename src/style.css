@@ -1,0 +1,10 @@
+.navbar-main-container{
+    background-color: #fff;
+    color: black;
+    display: flex;
+    gap: 500px;
+}
+.navbar-first-container{
+    display: flex;
+    gap: 5px;
+}

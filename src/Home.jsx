@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './component/Navbar'
 
 function Home() {
   return (
     <div className='home-main-container'>
+      <Navbar/>
         <div className="home-first-container">
           <div className="home-first-container-img">
             {/* image in round shape */}
@@ -21,6 +23,7 @@ function Home() {
               <h3>I'm a MERN Developer</h3>
             </div>
             <div className="home-second-container-about-btn">
+              {/* <link>Resume</link> */}
               <button>Resume</button>
               <button>Projects</button>
             </div>
