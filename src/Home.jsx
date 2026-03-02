@@ -23,7 +23,8 @@ function Home() {
               <h3>I'm a MERN Developer</h3>
             </div>
             <div className="home-second-container-about-btn">
-              {/* <link>Resume</link> */}
+              {/* <link to="./pages/Resume">Resume</link> */}
+              {/* error on top line find the link function */}
               <button>Resume</button>
               <button>Projects</button>
             </div>

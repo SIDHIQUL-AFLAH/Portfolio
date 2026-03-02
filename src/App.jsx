@@ -6,6 +6,8 @@ import Home from './Home'
 import './style.css'
 import Navbar from './component/Navbar'
 import Resume from './pages/Resume'
+import Project from './pages/Project'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/resume' element={<Resume/>}/>
+        <Route path='/project' element={<Project/>} />
+        <Route path='/contact' element={<Contact/>} />
+        {/* The 404 Catch-All */}
+        <Route path="*" element={<div>Page Not Found</div>} />
       </Routes>
     </div>
   )
