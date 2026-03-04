@@ -2,7 +2,11 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div>Project</div>
+    <div>
+      <div className="project-first-container">
+        <h2>project</h2>
+      </div>
+    </div>
   )
 }
 
