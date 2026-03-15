@@ -4,14 +4,7 @@ const Resume = () => {
   return (
     <div>
       <div className="resume-first-container">
-        <div className="helloo"></div>
-        <div className="helloo"></div>
-        <div className="helloo"></div>
-        <div className="helloo"></div>
-        <div className="helloo"></div>
-        <div className="helloo"></div>
-        <div className="helloo"></div>
-        <div className="helloo"></div>
+       
       </div>
     </div>
   )
