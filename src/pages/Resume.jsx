@@ -4,7 +4,13 @@ const Resume = () => {
   return (
     <div>
       <div className="resume-first-container">
-
+        <div className="lkkjjo"></div>
+        <div className="lkkjjo"></div>
+        <div className="lkkjjo"></div>
+        <div className="lkkjjo"></div>
+        <div className="lkkjjo"></div>
+        <div className="lkkjjo"></div>
+        <div className="lkkjjo"></div>
       </div>
     </div>
   )
