@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div>
       <div className="resume-first-container">
-       
+       <div className="container"></div>
       </div>
     </div>
   )
