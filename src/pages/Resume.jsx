@@ -9,10 +9,6 @@ const Resume = () => {
         <div className="mmm"></div>
         <div className="mmm"></div>
         <div className="mmm"></div>
-        <div className="mmm"></div>
-        <div className="mmm"></div>
-        <div className="mmm"></div>
-        <div className="mmm"></div>
        </div>
       </div>
     </div>
